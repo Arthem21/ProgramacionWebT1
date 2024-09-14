@@ -1,0 +1,60 @@
+@page "/calculadora"
+@rendermode InteractiveServer
+
+<PageTitle>Calculadora</PageTitle>
+<h1>Calculadora</h1>
+<p>Esta es una calculadora basica de operaciones aritmeticas</p>
+
+
+<div class="input-group mb-3" >
+  <span class="input-group-text" id="basic-addon1">Primer numero:</span>
+    <input type="number" class="form-control" @bind="x">
+</div>
+
+<div class="input-group mb-3" >
+  <span class="input-group-text" id="basic-addon1">Segundo numero:</span>
+<input type="number" class="form-control" @bind="y">
+</div>
+
+
+<div class="mt-3" >
+    <button class="btn btn-primary" @onclick="sumar">Sumar</button>
+    <button class="btn btn-primary" @onclick="restar">Restar</button>
+    <button class="btn btn-primary" @onclick="multiplicar">Multiplicar</button>
+    <button class="btn btn-primary" @onclick="dividir">Dividir</button>
+</div>
+
+
+<div class="input-group mb-3" >
+  <span class="input-group-text" id="basic-addon1">Resultado</span>
+ <div class="form-control">
+        @z
+    </div>
+
+ </div>
+
+@code{
+
+    public double x=0,y=0,z=0;
+
+    void sumar(){
+
+        z=x+y;
+    }
+
+    void restar(){
+
+        z=x-y;
+    }
+
+    void multiplicar(){
+
+        z=x*y;
+    }
+
+    void dividir(){
+
+        z=x/y;
+    }
+
+}

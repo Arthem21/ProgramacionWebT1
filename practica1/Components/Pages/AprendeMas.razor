@@ -1,0 +1,47 @@
+@page "/aprende_mas"
+@rendermode InteractiveServer
+
+<PageTitle>Aprende Más</PageTitle>
+
+<h1>Aprende Más</h1>
+
+<div class= "row">
+    @foreach(var video in videos){
+
+       <div class= "col-md-4 md-3">
+            <div class= "card">
+                <img class= "card-img-top" src= "https://i.ytimg.com/vi/@video.url/hq720.jpg " alt="Card image cap">
+                <div class= "card-body">
+                    <h5 class= "card-title">@video.titulo</h5>
+                    <p class= "card-text">@video.descripcion</p>
+                    <a href="https://www.youtube.com/watch?v=@video.url" target="_blank" class="btn btn-primary">Reproducir video</a>
+                </div>
+            </div>
+
+
+       </div> 
+
+    }
+
+</div>
+
+@code{
+
+    public class video{
+
+        public string? titulo{set ; get;}
+        public string? url{ set ; get;}
+        public string? descripcion{set; get;}
+
+    }
+
+    List<video> videos = new List<video> {
+    
+        new video{ titulo = "¿Qué diablos es Blazor? | ejemplo básico", url = "ktDj2xD-H9s", descripcion= "Es un breve video acerca del funcionamiento de Blazor y algunas de sus capacidades como herramienta de programación web. Lo que más me gustó del video fue la rapidez con la que se explicó el tema." },
+        new video{ titulo = "Introducción a Blazor - ¿Qué es Blazor? - C# en el frontend", url = "NNJfeM229zI", descripcion= "Es un video que explica conceptos técnicos de Blazor de forma sencilla y detallada. Lo que más me gusta del video es cómo el creador del mismo explica en detalle el funcionamiento de Blazor y las distintas arquitecturas utilizadas en él." }, 
+        new video{ titulo = "Blazor WebAssembly vs Blazor Server en 2 minutos", url = "aKYLx-YOPAg", descripcion= "Es un video muy breve en el que se comparan Blazor WebAssembly vs Blazor Server. Me gustó que en el video se describe exactamente lo justo y necesario para entender las diferencias de ambas herramientas." }, 
+        new video{ titulo = "Extensiones para Blazor en Visual Studio Code", url = "tBbzoLIAh3U", descripcion= "Es un video en el que se presentan una serie de extensiones para Blazor que pueden ser útiles para programar. Me gustó porque presenta herramientas que me podrían ser de utilidad en un futuro cercano." }, 
+        new video{ titulo = "Prevenir Navegación en Blazor (Nuevo de .NET 7)", url = "n4wKskfs-x0", descripcion= "Es un breve video acerca del funcionamiento del comando NavigationLock en Blazor. Realmente no tengo mucho que destacar del video más allá de que el comando me llamó la atención." }
+    };
+
+}

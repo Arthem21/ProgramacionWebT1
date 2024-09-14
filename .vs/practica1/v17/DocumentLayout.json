@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\maxim\\Web\\viernes\\practica1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2A96FD8-35A0-4B9E-94B3-CF11D81CA834}|practica1\\practica1.csproj|c:\\users\\maxim\\web\\viernes\\practica1\\practica1\\components\\pages\\inicio.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2A96FD8-35A0-4B9E-94B3-CF11D81CA834}|practica1\\practica1.csproj|solutionrelative:practica1\\components\\pages\\inicio.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2A96FD8-35A0-4B9E-94B3-CF11D81CA834}|practica1\\practica1.csproj|c:\\users\\maxim\\web\\viernes\\practica1\\practica1\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2A96FD8-35A0-4B9E-94B3-CF11D81CA834}|practica1\\practica1.csproj|solutionrelative:practica1\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2A96FD8-35A0-4B9E-94B3-CF11D81CA834}|practica1\\practica1.csproj|c:\\users\\maxim\\web\\viernes\\practica1\\practica1\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2A96FD8-35A0-4B9E-94B3-CF11D81CA834}|practica1\\practica1.csproj|solutionrelative:practica1\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2A96FD8-35A0-4B9E-94B3-CF11D81CA834}|practica1\\practica1.csproj|c:\\users\\maxim\\web\\viernes\\practica1\\practica1\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2A96FD8-35A0-4B9E-94B3-CF11D81CA834}|practica1\\practica1.csproj|solutionrelative:practica1\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\maxim\\Web\\viernes\\practica1\\practica1\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "practica1\\Components\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\maxim\\Web\\viernes\\practica1\\practica1\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "practica1\\Components\\Pages\\Weather.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-12T20:41:48.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Inicio.razor",
+              "DocumentMoniker": "C:\\Users\\maxim\\Web\\viernes\\practica1\\practica1\\Components\\Pages\\Inicio.razor",
+              "RelativeDocumentMoniker": "practica1\\Components\\Pages\\Inicio.razor",
+              "ToolTip": "C:\\Users\\maxim\\Web\\viernes\\practica1\\practica1\\Components\\Pages\\Inicio.razor",
+              "RelativeToolTip": "practica1\\Components\\Pages\\Inicio.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-12T20:41:47.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Error.razor",
+              "DocumentMoniker": "C:\\Users\\maxim\\Web\\viernes\\practica1\\practica1\\Components\\Pages\\Error.razor",
+              "RelativeDocumentMoniker": "practica1\\Components\\Pages\\Error.razor",
+              "ToolTip": "C:\\Users\\maxim\\Web\\viernes\\practica1\\practica1\\Components\\Pages\\Error.razor",
+              "RelativeToolTip": "practica1\\Components\\Pages\\Error.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-12T20:41:46.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\maxim\\Web\\viernes\\practica1\\practica1\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "practica1\\Components\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\maxim\\Web\\viernes\\practica1\\practica1\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "practica1\\Components\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-12T20:41:35.179Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
